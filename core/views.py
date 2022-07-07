@@ -8,7 +8,7 @@ from iommi import Page, html
 
 class MyPage(Page):
     class Meta:
-        h_tag__tag = "h3"
+        h_tag__tag = "h4"
 
 
 def hyperlink(link_text, url_name):
