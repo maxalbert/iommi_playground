@@ -1,0 +1,44 @@
+[
+{
+  "model": "core.artist",
+  "pk": 1,
+  "fields": {
+    "name": "Django Reinhardt"
+  }
+},
+{
+  "model": "core.artist",
+  "pk": 2,
+  "fields": {
+    "name": "Quintette Du Hot Club De France"
+  }
+},
+{
+  "model": "core.artist",
+  "pk": 3,
+  "fields": {
+    "name": "Black Sabbath"
+  }
+},
+{
+  "model": "core.artist",
+  "pk": 4,
+  "fields": {
+    "name": "Dio"
+  }
+},
+{
+  "model": "core.artist",
+  "pk": 5,
+  "fields": {
+    "name": "Ozzy Osbourne"
+  }
+},
+{
+  "model": "core.artist",
+  "pk": 6,
+  "fields": {
+    "name": "Tony Iommi"
+  }
+}
+]
