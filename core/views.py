@@ -39,6 +39,12 @@ class ErrorPages(MyPage):
     class Meta:
         title = "Errors"
 
+    intro_text = html.div(
+        html.i(
+            "Examples of pages that deliberately contain errors but where the error message could be clearer:",
+        ),
+    )
+
     error_pages = html.ul(
         hyperlink("Page parts must be dict, not list", url_name="error_page_parts_must_be_dict_not_list")
     )
