@@ -1,0 +1,686 @@
+[
+{
+  "model": "core.album",
+  "pk": 1,
+  "fields": {
+    "name": "The Great Artistry Of Django Reinhardt",
+    "artist": 1,
+    "year": 1953
+  }
+},
+{
+  "model": "core.album",
+  "pk": 2,
+  "fields": {
+    "name": "Souvenirs De Django Reinhardt Volume 2",
+    "artist": 1,
+    "year": 1954
+  }
+},
+{
+  "model": "core.album",
+  "pk": 3,
+  "fields": {
+    "name": "Django",
+    "artist": 1,
+    "year": 1957
+  }
+},
+{
+  "model": "core.album",
+  "pk": 4,
+  "fields": {
+    "name": "Django (Volume 1)",
+    "artist": 1,
+    "year": 1957
+  }
+},
+{
+  "model": "core.album",
+  "pk": 5,
+  "fields": {
+    "name": "Volume 2",
+    "artist": 1,
+    "year": 1957
+  }
+},
+{
+  "model": "core.album",
+  "pk": 6,
+  "fields": {
+    "name": "Django Volume V",
+    "artist": 1,
+    "year": 1959
+  }
+},
+{
+  "model": "core.album",
+  "pk": 7,
+  "fields": {
+    "name": "Django Reinhardt",
+    "artist": 1,
+    "year": 1961
+  }
+},
+{
+  "model": "core.album",
+  "pk": 8,
+  "fields": {
+    "name": "Newly Discovered Masters By Django Reinhardt And The Quintet Of The Hot Club Of France",
+    "artist": 1,
+    "year": 1961
+  }
+},
+{
+  "model": "core.album",
+  "pk": 9,
+  "fields": {
+    "name": "The Quintet Of The Hot Club Of France - Volume 2",
+    "artist": 2,
+    "year": 1943
+  }
+},
+{
+  "model": "core.album",
+  "pk": 10,
+  "fields": {
+    "name": "Swing '35-'39",
+    "artist": 2,
+    "year": 1970
+  }
+},
+{
+  "model": "core.album",
+  "pk": 11,
+  "fields": {
+    "name": "Black Sabbath",
+    "artist": 3,
+    "year": 1970
+  }
+},
+{
+  "model": "core.album",
+  "pk": 12,
+  "fields": {
+    "name": "Paranoid",
+    "artist": 3,
+    "year": 1970
+  }
+},
+{
+  "model": "core.album",
+  "pk": 13,
+  "fields": {
+    "name": "Master Of Reality",
+    "artist": 3,
+    "year": 1971
+  }
+},
+{
+  "model": "core.album",
+  "pk": 14,
+  "fields": {
+    "name": "Black Sabbath Vol 4",
+    "artist": 3,
+    "year": 1972
+  }
+},
+{
+  "model": "core.album",
+  "pk": 15,
+  "fields": {
+    "name": "Sabbath Bloody Sabbath",
+    "artist": 3,
+    "year": 1973
+  }
+},
+{
+  "model": "core.album",
+  "pk": 16,
+  "fields": {
+    "name": "Sabotage",
+    "artist": 3,
+    "year": 1975
+  }
+},
+{
+  "model": "core.album",
+  "pk": 17,
+  "fields": {
+    "name": "Technical Ecstasy",
+    "artist": 3,
+    "year": 1976
+  }
+},
+{
+  "model": "core.album",
+  "pk": 18,
+  "fields": {
+    "name": "Never Say Die!",
+    "artist": 3,
+    "year": 1978
+  }
+},
+{
+  "model": "core.album",
+  "pk": 19,
+  "fields": {
+    "name": "Heaven And Hell",
+    "artist": 3,
+    "year": 1980
+  }
+},
+{
+  "model": "core.album",
+  "pk": 20,
+  "fields": {
+    "name": "Live At Last",
+    "artist": 3,
+    "year": 1980
+  }
+},
+{
+  "model": "core.album",
+  "pk": 21,
+  "fields": {
+    "name": "Mob Rules",
+    "artist": 3,
+    "year": 1981
+  }
+},
+{
+  "model": "core.album",
+  "pk": 22,
+  "fields": {
+    "name": "Live Evil",
+    "artist": 3,
+    "year": 1982
+  }
+},
+{
+  "model": "core.album",
+  "pk": 23,
+  "fields": {
+    "name": "Captured Live!",
+    "artist": 3,
+    "year": 1983
+  }
+},
+{
+  "model": "core.album",
+  "pk": 24,
+  "fields": {
+    "name": "Born Again",
+    "artist": 3,
+    "year": 1983
+  }
+},
+{
+  "model": "core.album",
+  "pk": 25,
+  "fields": {
+    "name": "The Eternal Idol",
+    "artist": 3,
+    "year": 1987
+  }
+},
+{
+  "model": "core.album",
+  "pk": 26,
+  "fields": {
+    "name": "Headless Cross",
+    "artist": 3,
+    "year": 1989
+  }
+},
+{
+  "model": "core.album",
+  "pk": 27,
+  "fields": {
+    "name": "Tyr",
+    "artist": 3,
+    "year": 1990
+  }
+},
+{
+  "model": "core.album",
+  "pk": 28,
+  "fields": {
+    "name": "Dehumanizer",
+    "artist": 3,
+    "year": 1992
+  }
+},
+{
+  "model": "core.album",
+  "pk": 29,
+  "fields": {
+    "name": "Cross Purposes",
+    "artist": 3,
+    "year": 1994
+  }
+},
+{
+  "model": "core.album",
+  "pk": 30,
+  "fields": {
+    "name": "Cross Purposes - Live",
+    "artist": 3,
+    "year": 1995
+  }
+},
+{
+  "model": "core.album",
+  "pk": 31,
+  "fields": {
+    "name": "Forbidden",
+    "artist": 3,
+    "year": 1995
+  }
+},
+{
+  "model": "core.album",
+  "pk": 32,
+  "fields": {
+    "name": "Reunion",
+    "artist": 3,
+    "year": 1998
+  }
+},
+{
+  "model": "core.album",
+  "pk": 33,
+  "fields": {
+    "name": "Past Lives",
+    "artist": 3,
+    "year": 2002
+  }
+},
+{
+  "model": "core.album",
+  "pk": 34,
+  "fields": {
+    "name": "Live At Hammersmith Odeon",
+    "artist": 3,
+    "year": 2007
+  }
+},
+{
+  "model": "core.album",
+  "pk": 35,
+  "fields": {
+    "name": "Live...Gathered In Their Masses",
+    "artist": 3,
+    "year": 2013
+  }
+},
+{
+  "model": "core.album",
+  "pk": 36,
+  "fields": {
+    "name": "13",
+    "artist": 3,
+    "year": 2013
+  }
+},
+{
+  "model": "core.album",
+  "pk": 37,
+  "fields": {
+    "name": "The End",
+    "artist": 3,
+    "year": 2016
+  }
+},
+{
+  "model": "core.album",
+  "pk": 38,
+  "fields": {
+    "name": "The End (4 February 2017 - Birmingham)",
+    "artist": 3,
+    "year": 2017
+  }
+},
+{
+  "model": "core.album",
+  "pk": 39,
+  "fields": {
+    "name": "Holy Diver",
+    "artist": 4,
+    "year": 1983
+  }
+},
+{
+  "model": "core.album",
+  "pk": 40,
+  "fields": {
+    "name": "The Last In Line",
+    "artist": 4,
+    "year": 1984
+  }
+},
+{
+  "model": "core.album",
+  "pk": 41,
+  "fields": {
+    "name": "Sacred Heart",
+    "artist": 4,
+    "year": 1985
+  }
+},
+{
+  "model": "core.album",
+  "pk": 42,
+  "fields": {
+    "name": "Intermission",
+    "artist": 4,
+    "year": 1986
+  }
+},
+{
+  "model": "core.album",
+  "pk": 43,
+  "fields": {
+    "name": "Dream Evil",
+    "artist": 4,
+    "year": 1987
+  }
+},
+{
+  "model": "core.album",
+  "pk": 44,
+  "fields": {
+    "name": "Lock Up The Wolves",
+    "artist": 4,
+    "year": 1990
+  }
+},
+{
+  "model": "core.album",
+  "pk": 45,
+  "fields": {
+    "name": "Strange Highways",
+    "artist": 4,
+    "year": 1993
+  }
+},
+{
+  "model": "core.album",
+  "pk": 46,
+  "fields": {
+    "name": "Angry Machines",
+    "artist": 4,
+    "year": 1996
+  }
+},
+{
+  "model": "core.album",
+  "pk": 47,
+  "fields": {
+    "name": "Dio's Inferno - The Last In Live",
+    "artist": 4,
+    "year": 1997
+  }
+},
+{
+  "model": "core.album",
+  "pk": 48,
+  "fields": {
+    "name": "Magica",
+    "artist": 4,
+    "year": 2000
+  }
+},
+{
+  "model": "core.album",
+  "pk": 49,
+  "fields": {
+    "name": "Killing The Dragon",
+    "artist": 4,
+    "year": 2002
+  }
+},
+{
+  "model": "core.album",
+  "pk": 50,
+  "fields": {
+    "name": "Evil Or Divine: Live In New York City",
+    "artist": 4,
+    "year": 2003
+  }
+},
+{
+  "model": "core.album",
+  "pk": 51,
+  "fields": {
+    "name": "Master Of The Moon",
+    "artist": 4,
+    "year": 2004
+  }
+},
+{
+  "model": "core.album",
+  "pk": 52,
+  "fields": {
+    "name": "Chasing Rainbows - Live At The Coliseum Washington 1984",
+    "artist": 4,
+    "year": 2004
+  }
+},
+{
+  "model": "core.album",
+  "pk": 53,
+  "fields": {
+    "name": "Holy Diver Live",
+    "artist": 4,
+    "year": 2006
+  }
+},
+{
+  "model": "core.album",
+  "pk": 54,
+  "fields": {
+    "name": "At Donington UK: Live 1983 & 1987",
+    "artist": 4,
+    "year": 2010
+  }
+},
+{
+  "model": "core.album",
+  "pk": 55,
+  "fields": {
+    "name": "Live - We Rock",
+    "artist": 4,
+    "year": 2010
+  }
+},
+{
+  "model": "core.album",
+  "pk": 56,
+  "fields": {
+    "name": "Finding The Sacred Heart – Live In Philly 1986 –",
+    "artist": 4,
+    "year": 2013
+  }
+},
+{
+  "model": "core.album",
+  "pk": 57,
+  "fields": {
+    "name": "Live In London Hammersmith Apollo 1993",
+    "artist": 4,
+    "year": 2014
+  }
+},
+{
+  "model": "core.album",
+  "pk": 58,
+  "fields": {
+    "name": "Blizzard Of Ozz",
+    "artist": 5,
+    "year": 1980
+  }
+},
+{
+  "model": "core.album",
+  "pk": 59,
+  "fields": {
+    "name": "Diary Of A Madman",
+    "artist": 5,
+    "year": 1981
+  }
+},
+{
+  "model": "core.album",
+  "pk": 60,
+  "fields": {
+    "name": "Speak Of The Devil",
+    "artist": 5,
+    "year": 1982
+  }
+},
+{
+  "model": "core.album",
+  "pk": 61,
+  "fields": {
+    "name": "Bark At The Moon",
+    "artist": 5,
+    "year": 1983
+  }
+},
+{
+  "model": "core.album",
+  "pk": 62,
+  "fields": {
+    "name": "The King Biscuit Flower Hour (#642)",
+    "artist": 5,
+    "year": 1986
+  }
+},
+{
+  "model": "core.album",
+  "pk": 63,
+  "fields": {
+    "name": "Off The Record Specials With Mary Turner",
+    "artist": 5,
+    "year": 1987
+  }
+},
+{
+  "model": "core.album",
+  "pk": 64,
+  "fields": {
+    "name": "The Ultimate Sin",
+    "artist": 5,
+    "year": 1986
+  }
+},
+{
+  "model": "core.album",
+  "pk": 65,
+  "fields": {
+    "name": "No More Tears",
+    "artist": 5,
+    "year": 1991
+  }
+},
+{
+  "model": "core.album",
+  "pk": 66,
+  "fields": {
+    "name": "Live & Loud",
+    "artist": 5,
+    "year": 1993
+  }
+},
+{
+  "model": "core.album",
+  "pk": 67,
+  "fields": {
+    "name": "Ozzmosis",
+    "artist": 5,
+    "year": 1995
+  }
+},
+{
+  "model": "core.album",
+  "pk": 68,
+  "fields": {
+    "name": "Down To Earth",
+    "artist": 5,
+    "year": 2001
+  }
+},
+{
+  "model": "core.album",
+  "pk": 69,
+  "fields": {
+    "name": "Live At Budokan",
+    "artist": 5,
+    "year": 2002
+  }
+},
+{
+  "model": "core.album",
+  "pk": 70,
+  "fields": {
+    "name": "Under Cover",
+    "artist": 5,
+    "year": 2005
+  }
+},
+{
+  "model": "core.album",
+  "pk": 71,
+  "fields": {
+    "name": "Black Rain",
+    "artist": 5,
+    "year": 2007
+  }
+},
+{
+  "model": "core.album",
+  "pk": 72,
+  "fields": {
+    "name": "Scream",
+    "artist": 5,
+    "year": 2010
+  }
+},
+{
+  "model": "core.album",
+  "pk": 73,
+  "fields": {
+    "name": "Ozzy Live",
+    "artist": 5,
+    "year": 2012
+  }
+},
+{
+  "model": "core.album",
+  "pk": 74,
+  "fields": {
+    "name": "Ordinary Man",
+    "artist": 5,
+    "year": 2020
+  }
+},
+{
+  "model": "core.album",
+  "pk": 75,
+  "fields": {
+    "name": "Iommi",
+    "artist": 6,
+    "year": 2000
+  }
+},
+{
+  "model": "core.album",
+  "pk": 76,
+  "fields": {
+    "name": "Fused",
+    "artist": 6,
+    "year": 2005
+  }
+}
+]
