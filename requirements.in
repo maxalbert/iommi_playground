@@ -1,0 +1,3 @@
+# Generate requirements.txt using pip-tools
+django
+iommi>=5.0.0
