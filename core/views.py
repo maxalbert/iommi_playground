@@ -1,5 +1,4 @@
 import platform
-import textwrap
 
 import django
 import iommi
@@ -33,6 +32,7 @@ class DatabaseRecords(MyPage):
 
     model_pages = html.ul(
         html.li(hyperlink("Artists", url_name="artists")),
+        html.li(hyperlink("Albums", url_name="albums")),
     )
 
 
