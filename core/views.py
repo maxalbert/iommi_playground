@@ -48,7 +48,7 @@ def error_example(title, *paragraphs, url_name):
 
 class ImprovableErrorMessages(MyPage):
     class Meta:
-        title = "Pages With Errors"
+        title = "Improvable Error Messages"
 
     intro_text = html.div(
         "The following examples deliberately produce errors. "
