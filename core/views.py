@@ -58,7 +58,12 @@ class Pitfalls(MyPage):
 
     pitfalls = html.ul(
         html.li(
-            html.p("Page title must be set in the `Meta` class:"),
+            html.p(
+                "Page title must be set in the `Meta` class. "
+                "Can we at least produce a warning if the user tries to set the 'title' attribute directly? "
+                "It seems like a common mistake that beginners might make.",
+                attrs__style={"font-size": "smaller", "font-style": "italic"}
+            ),
             PageTitleWrong(),
             PageTitleCorrect())
     )
@@ -81,7 +86,7 @@ class ImprovableErrorMessages(MyPage):
     intro_text = html.div(
         "The following examples deliberately produce errors. "
         "They are meant to illustrate examples where the error message could be clearer.",
-        attrs__style={"padding-top": "5px", "padding-bottom": "15px"},
+        attrs__style={"padding-top": "5px", "padding-bottom": "15px", "font-style": "italic"},
     )
 
     error_pages = html.ul(
