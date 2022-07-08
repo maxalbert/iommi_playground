@@ -36,6 +36,34 @@ class DatabaseRecords(MyPage):
     )
 
 
+class Cookbook(MyPage):
+    class Meta:
+        title = "Cookbook"
+
+    recipes = html.ul(
+        html.li(html.i("TODO"))
+    )
+
+
+class Pitfalls(MyPage):
+    class Meta:
+        title = "Pitfalls"
+
+    class PageTitleWrong(MyPage):
+        title = "This text is *not* recognised as a page title"
+
+    class PageTitleCorrect(MyPage):
+        class Meta:
+            title = "This is properly recognised as the page title"
+
+    pitfalls = html.ul(
+        html.li(
+            html.p("Page title must be set in the `Meta` class:"),
+            PageTitleWrong(),
+            PageTitleCorrect())
+    )
+
+
 def error_example(title, *paragraphs, url_name):
     return html.li(
         hyperlink(title, url_name=url_name),
@@ -84,6 +112,8 @@ def index(request):
         parts=dict(
             version_info=VersionInfo(),
             model_pages=DatabaseRecords(),
+            cookbook=Cookbook(),
+            pitfalls=Pitfalls(),
             error_pages=ImprovableErrorMessages(),
         )
     )
